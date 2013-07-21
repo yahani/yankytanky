@@ -1,0 +1,8 @@
+E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\TankGame.exe
+E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\TankGame.pdb
+E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.exe
+E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.pdb
+E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\Content\sfont1.xnb
+E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\Content\sprites.xnb
