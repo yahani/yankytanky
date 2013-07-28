@@ -26,8 +26,25 @@ namespace TankGame
 
         public int decode(string str)
         {
+            if (str.Equals("PLAYERS_FULL#"))
+            {
+                System.Diagnostics.Debug.Write("players full");
+                return 6;
+            }
+            else if (str.Equals("ALREADY_ADDED#"))
+            {
+                System.Diagnostics.Debug.Write("already added");
+                return 7;
+            }
+            else if (str.Equals("GAME_ALREADY_STARTED#"))
+            {
+                System.Diagnostics.Debug.Write("game started");
+                return 8;
+            }
             str = str.TrimEnd(new char[] { '#' });
             //// --------------player start hack
+            
+
             if (str.Substring(0, 1).Equals("S")) str=str.Replace(';', ':');
             //// --------------
 

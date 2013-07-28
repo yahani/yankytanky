@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using TankGame.Entities;
 using TankGame.AI;
+using System.Runtime.InteropServices;
 
 namespace TankGame
 {
@@ -22,7 +23,8 @@ namespace TankGame
         public Tank Myplayer { get; set; }
         public List<LifePack> LifePacks { get; set; }
         public List<CoinPile> CoinPiles { get; set; }
-
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        public static extern uint MessageBox(IntPtr hWnd, String text, String caption, uint type);
         int size=45,originx=10,originy=10;
         Decoder dec;
         Communicator com;
@@ -39,6 +41,7 @@ namespace TankGame
         {
             int result = 0;
             string msg = com.listen();
+            //try changing return type of dec.decode to string and handle this...
             if (msg != "")
             {
                 lastmsg = msg;
@@ -53,6 +56,20 @@ namespace TankGame
             {
                Vector2 dir= ai.getBestDirection(Bricks,Stones, Myplayer,Tanks, CoinPiles, LifePacks);
                com.send(dec.decodeDir(dir)+"#");
+            }
+            else if(result==6){
+                MessageBox(new IntPtr(0), "player full", "Error", 0);
+
+            }
+            else if (result == 7)
+            {
+                MessageBox(new IntPtr(0), "already added", "Error", 0);
+
+            }
+            else if (result == 8)
+            {
+                MessageBox(new IntPtr(0), "game already started", "Error", 0);
+
             }
         }
 
