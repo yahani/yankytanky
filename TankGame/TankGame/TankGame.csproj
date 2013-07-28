@@ -113,6 +113,7 @@
     <Compile Include="Communicator.cs" />
     <Compile Include="Decoder.cs" />
     <Compile Include="Entities\Brick.cs" />
+    <Compile Include="Entities\Button.cs" />
     <Compile Include="Entities\CoinPile.cs" />
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="Entities\LifePack.cs" />

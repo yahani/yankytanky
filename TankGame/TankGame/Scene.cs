@@ -22,6 +22,7 @@ namespace TankGame
         public Tank Myplayer { get; set; }
         public List<LifePack> LifePacks { get; set; }
         public List<CoinPile> CoinPiles { get; set; }
+
         int size=45,originx=10,originy=10;
         Decoder dec;
         Communicator com;
@@ -64,6 +65,7 @@ namespace TankGame
         {
             sfont1 = Content.Load<SpriteFont>("sFont1");
             Entity.LoadTexture(Content);
+            
         }
 
         public void draw(SpriteBatch spriteBatch)

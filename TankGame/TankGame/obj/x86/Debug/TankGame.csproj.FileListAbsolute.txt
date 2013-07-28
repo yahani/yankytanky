@@ -6,3 +6,13 @@ E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\obj
 E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.pdb
 E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\Content\sfont1.xnb
 E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\Content\sprites.xnb
+C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\sFont1.xnb
+C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\sprites.xnb
+C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\TankGame.exe
+C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\TankGame.pdb
+C:\Users\Yahani\yankytanky\TankGame\TankGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Yahani\yankytanky\TankGame\TankGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Yahani\yankytanky\TankGame\TankGame\obj\x86\Debug\TankGame.exe
+C:\Users\Yahani\yankytanky\TankGame\TankGame\obj\x86\Debug\TankGame.pdb
+C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\joinButton.xnb
+C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\playButton.xnb
