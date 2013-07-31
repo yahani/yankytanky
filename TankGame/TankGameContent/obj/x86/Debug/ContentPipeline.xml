@@ -2,13 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>sfont1.spritefont</Source>
-      <Name>sfont1</Name>
+      <Source>sFont1.spritefont</Source>
+      <Name>sFont1</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\Content\sfont1.xnb</Output>
-      <Time>2013-02-09T18:39:56.0511588+05:30</Time>
+      <Output>C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\sFont1.xnb</Output>
+      <Time>2013-07-25T20:50:48.9277914+05:30</Time>
     </Item>
     <Item>
       <Source>sprites.png</Source>
@@ -16,8 +16,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\Content\sprites.xnb</Output>
-      <Time>2013-04-24T21:11:43.6376819+05:30</Time>
+      <Output>C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\sprites.xnb</Output>
+      <Time>2013-07-25T20:50:48.9287915+05:30</Time>
+    </Item>
+    <Item>
+      <Source>joinButton.png</Source>
+      <Name>joinButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\joinButton.xnb</Output>
+      <Time>2013-07-28T10:15:48.7241955+05:30</Time>
+    </Item>
+    <Item>
+      <Source>playButton.png</Source>
+      <Name>playButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\playButton.xnb</Output>
+      <Time>2013-07-28T10:16:51.9678128+05:30</Time>
+    </Item>
+    <Item>
+      <Source>MyFont.spritefont</Source>
+      <Name>MyFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\MyFont.xnb</Output>
+      <Time>2013-07-31T22:41:52.1852649+05:30</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -25,10 +52,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGameContent\</RootDirectory>
-      <LoggerRootDirectory>E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\Pen backup\Acadamyc\Semester 4\Pro Challenge 2\TankGame\TankGame\TankGame\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Yahani\yankytanky\TankGame\TankGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Yahani\yankytanky\TankGame\TankGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Yahani\yankytanky\TankGame\TankGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Yahani\yankytanky\TankGame\TankGame\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -57,7 +84,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-10-28T08:09:38.0324816+05:30</Value>
+        <Value>2012-12-16T00:39:15.5912477+05:30</Value>
       </Assembly>
     </Assemblies>
   </Asset>

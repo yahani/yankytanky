@@ -18,7 +18,7 @@ namespace TankGame
         Scene scene;
         
         public Texture2D joinButton,playButton;
-        public Vector2 joinBtnPos = new Vector2(500, 100);
+        public Vector2 joinBtnPos = new Vector2(540, 70);
         public MouseState mouseClick;
         public Game1()
         {
@@ -42,6 +42,7 @@ namespace TankGame
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             scene.loadScene(Content);
+            
             //scene.joinServer();
             
             joinButton = Content.Load<Texture2D>("joinButton");
@@ -78,6 +79,7 @@ namespace TankGame
             scene.draw(spriteBatch);
             spriteBatch.Draw(joinButton, joinBtnPos, new Rectangle(0,0,joinButton.Width,joinButton.Height), Color.White, 0, new Vector2(0, 0), new Vector2(1f,1f), SpriteEffects.None, 0);
             //spriteBatch.Draw(playButton, playBtnPos, new Rectangle(0, 0, playButton.Width, playButton.Height), Color.White, 0, new Vector2(0, 0), new Vector2(1f, 1f), SpriteEffects.None, 0);
+            
             spriteBatch.End();
            
             base.Draw(gameTime);
