@@ -133,9 +133,9 @@ namespace TankGame
               for (int i = 1; i < Tanks.Length; i++)
                 {
                     if (Tanks[i] == null) continue;
-                    spriteBatch.DrawString(font, "Player"+i, new Vector2(490, 315+25*i), Color.White);
-                    spriteBatch.DrawString(font, this.Tanks[i].Points.ToString(), new Vector2(590, 315 + 25 * i), Color.White);
-                    spriteBatch.DrawString(font, this.Myplayer.Coins.ToString(), new Vector2(680, 315 + 25 * i), Color.White);  
+                    spriteBatch.DrawString(font, "Player"+i, new Vector2(490, 290+25*i), Color.White);
+                    spriteBatch.DrawString(font, this.Tanks[i].Points.ToString(), new Vector2(590, 290 + 25 * i), Color.White);
+                    spriteBatch.DrawString(font, this.Myplayer.Coins.ToString(), new Vector2(680, 290 + 25 * i), Color.White);  
                 }
             }
         }
